@@ -1,3 +1,8 @@
+let li = document.querySelectorAll('li');
+
+window.addEventListener('scroll', function() {
+  document.getElementById('showScroll').innerHTML = quotes.quoteText + 'px';
+});
 let quotes = [
   {
     quoteText:
