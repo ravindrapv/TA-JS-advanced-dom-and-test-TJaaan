@@ -1,14 +1,12 @@
-const index = require("./index");
+const methods = require("./index");
 
 
 test('index venkata + ravindra to equal venkataravindra', () => {
-    expect(getFullName("venkata","ravindra")).toBe("venkataravindra");
+    expect(methods.getFullName("venkata","ravindra")).toBe("venkataravindra");
 });
 
 test('index rama + krishna to equal ramakrishna', () => {
-    expect(getFullName("rama","krishna")).toBe("ramakrishna");
+    expect(methods.getFullName("rama","krishna")).toBe("ramakrishna");
 });
-
-
 
 
